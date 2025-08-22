@@ -1,0 +1,18 @@
+{
+	"font_face": "JetBrainsMonoNL NFM",
+	"font_size": 10,
+	"rulers": [[100, "dotted"], [120, "solid"]],
+	"draw_minimap_border": true,
+	"always_show_minimap_viewport": true,
+	"draw_white_space": ["selection", "leading", "trailing"],
+	"ensure_newline_at_eof_on_save": true,
+	"highlight_modified_tabs": true,
+	"bold_folder_labels": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"theme": "auto",
+}
