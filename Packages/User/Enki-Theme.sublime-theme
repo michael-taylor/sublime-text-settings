@@ -1,0 +1,36 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+	},
+	"rules":
+	[
+		{
+			"class": "label_control",
+			"parents": [{"class": "status_bar"}],
+			"color": [197, 197, 197, 200],
+			"font.bold": false
+		},
+		{
+			"class": "sidebar_label",
+			"color": [125, 125, 125],
+			"font.bold": false,
+			"font.italic": false,
+			"shadow_color": [255, 255, 255, 0],
+			"shadow_offset": [0, 0]
+		},
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
+			"color": [175, 189, 196],
+			"shadow_color": [255, 255, 255, 0],
+			"shadow_offset": [0, 0]
+		},
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
+			"font.bold": false,
+			"color": [255, 255, 255]
+		},
+	]
+}
