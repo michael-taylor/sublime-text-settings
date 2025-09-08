@@ -1,18 +1,40 @@
 {
+	// UI settings
 	"font_face": "JetBrainsMonoNL NFM",
-	"font_size": 10,
+	"font_size": 11,
 	"rulers": [[100, "dotted"], [120, "solid"]],
 	"draw_minimap_border": true,
 	"always_show_minimap_viewport": true,
-	"draw_white_space": ["selection", "leading", "trailing"],
-	"ensure_newline_at_eof_on_save": true,
-	"highlight_modified_tabs": true,
 	"bold_folder_labels": true,
+	"highlight_modified_tabs": true,
+	"color_scheme": "Packages/Enki Theme/scheme/Enki-Tokyo-Night.tmTheme",
+	"theme": "Enki-Theme.sublime-theme",
+	"enki_theme_accent_indigo": true,
+	"enki_theme_color_expanded_folder": true,
+	"enki_theme_tree_headings": true,
+
+	// Editing settings
+	"auto_complete_commit_on_tab": true,
+	"draw_white_space": ["selection", "leading", "trailing"],
+	"indent_guide_options": ["draw_normal", "draw_active"],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"scroll_context_lines": 10,
+	"copy_with_empty_selection": false,
+	"drag_text": false,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"show_indentation": true,
+	"show_syntax": true,
+	"goto_anything_exclude_gitignore": true,
+
+	// File settings
+	"ensure_newline_at_eof_on_save": true,
+	"index_files": true,
+
+	// Sublime package settings
 	"ignored_packages":
 	[
 		"Vintage",
 	],
-	"index_files": true,
-	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
-	"theme": "auto",
 }
