@@ -5,6 +5,8 @@
 	},
 	"globals":
 	{
+		"gutter_foreground": "#646b8a",
+		"gutter_foreground_highlight": "#cfdaf4",
 	},
 	"rules":
 	[
