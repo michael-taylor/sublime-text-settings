@@ -2,9 +2,48 @@
 {
 	"variables":
 	{
+		"dark_bg": "color(var(--background) blend(white 85%))",
+		"medium_dark_bg": "color(var(--background) blend(black 60%))",
+		"medium_bg": "color(var(--background) blend(black 80%))",
+		"light_bg": "color(var(--background) blend(black 90%))",
 	},
 	"rules":
 	[
+		{
+			"class": "title_bar",
+			"settings": ["themed_title_bar"],
+			"fg": "color(var(--background) blend(white 30%))",
+			"style": "system"
+		},
+		{
+			"class": "title_bar",
+			"settings": ["themed_title_bar"],
+			"attributes": ["file_dark"],
+			"bg": "var(dark_bg)",
+			"style": "dark"
+		},
+		{
+			"class": "title_bar",
+			"attributes": ["file_medium_dark"],
+			"settings": ["themed_title_bar"],
+			"bg": "var(medium_dark_bg)",
+			"style": "dark"
+		},
+		{
+			"class": "title_bar",
+			"attributes": ["file_medium"],
+			"settings": ["themed_title_bar"],
+			"bg": "var(medium_bg)",
+			"style": "light"
+		},
+		{
+			"class": "title_bar",
+			"attributes": ["file_light"],
+			"settings": ["themed_title_bar"],
+			"bg": "var(light_bg)",
+			"fg": "color(var(--background) blend(black 30%))",
+			"style": "light"
+		},
 		{
 			"class": "label_control",
 			"parents": [{"class": "status_bar"}],
