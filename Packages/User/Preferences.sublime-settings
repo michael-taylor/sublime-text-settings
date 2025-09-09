@@ -37,4 +37,21 @@
 	[
 		"Vintage",
 	],
+
+	// Plugins
+	"sesame.path": 
+	[
+		{
+			"path": "~/Projects",
+			"depth": 1,
+		},
+		{
+			"path": "C:/Projects",
+			"depth": 1,
+		},
+		{
+			"path": "D:/Projects",
+			"depth": 1,
+		},
+	],
 }
