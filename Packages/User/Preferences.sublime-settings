@@ -39,6 +39,6 @@
 	],
 
 	// Plugins
-	"sesame.path": [ "~/Projects", "C:/Projects", "D:/Projects" ],
+	"sesame.path": [ "~/Projects", "C:/Projects", "D:/Projects"],
 	"sesame.depth": 1,
 }
