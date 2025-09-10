@@ -1,0 +1,39 @@
+[
+	{ "keys": ["alt+`"], "command": "toggle_terminus_panel" },
+
+	{ "keys": ["ctrl+x", "up"], "command": "travel_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["ctrl+x", "right"], "command": "travel_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["ctrl+x", "down"], "command": "travel_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["ctrl+x", "left"], "command": "travel_to_pane", "args": {"direction": "left"} },
+
+	{ "keys": ["ctrl+x", "shift+up"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["ctrl+x", "shift+right"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["ctrl+x", "shift+down"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["ctrl+x", "shift+left"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+
+	{ "keys": ["ctrl+x", "alt+up"], "command": "clone_file_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["ctrl+x", "alt+right"], "command": "clone_file_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["ctrl+x", "alt+down"], "command": "clone_file_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["ctrl+x", "alt+left"], "command": "clone_file_to_pane", "args": {"direction": "left"} },
+	// You can also create the pane automatically with the following command (insert empty parameters):
+	// { "keys": [], "command": "create_pane_with_cloned_file", "args": {"direction": ""} }
+
+	{ "keys": ["ctrl+x", "ctrl+up"], "command": "create_pane", "args": {"direction": "up"} },
+	{ "keys": ["ctrl+x", "ctrl+right"], "command": "create_pane", "args": {"direction": "right"} },
+	{ "keys": ["ctrl+x", "ctrl+down"], "command": "create_pane", "args": {"direction": "down"} },
+	{ "keys": ["ctrl+x", "ctrl+left"], "command": "create_pane", "args": {"direction": "left"} },
+	// You can also add  "give_focus": true to automatically focus on the new pane as follows:
+	// { "keys": [], "command": "create_pane", "args": {"direction": "", "give_focus": true} }
+
+	{ "keys": ["ctrl+x", "ctrl+shift+up"], "command": "destroy_pane", "args": {"direction": "up"} },
+	{ "keys": ["ctrl+x", "ctrl+shift+right"], "command": "destroy_pane", "args": {"direction": "right"} },
+	{ "keys": ["ctrl+x", "ctrl+shift+down"], "command": "destroy_pane", "args": {"direction": "down"} },
+	{ "keys": ["ctrl+x", "ctrl+shift+left"], "command": "destroy_pane", "args": {"direction": "left"} },
+	// You can also destroy the current pane by binding the following command:
+	// { "keys": [], "command": "destroy_pane", "args": {"direction": "self"} },
+
+	{ "keys": ["ctrl+x", "ctrl+alt+up"], "command": "create_pane_with_file", "args": {"direction": "up"} },
+	{ "keys": ["ctrl+x", "ctrl+alt+right"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+	{ "keys": ["ctrl+x", "ctrl+alt+down"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+	{ "keys": ["ctrl+x", "ctrl+alt+left"], "command": "create_pane_with_file", "args": {"direction": "left"} },
+]
