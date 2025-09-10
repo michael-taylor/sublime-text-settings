@@ -1,6 +1,6 @@
 {
 	// UI settings
-	"font_face": "JetBrainsMonoNL NFM",
+	"font_face": "JetBrains Mono",
 	"font_size": 11,
 	"rulers": [[100, "dotted"], [120, "solid"]],
 	"draw_minimap_border": true,
