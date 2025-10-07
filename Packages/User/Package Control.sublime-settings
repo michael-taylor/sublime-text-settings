@@ -8,11 +8,13 @@
 		"LSP",
 		"LSP-pyright",
 		"LSP-ruff",
+		"LSP-svelte",
 		"Origami",
 		"Package Control",
 		"PowerShell",
 		"rainbow_csv",
 		"Sesame",
+		"Svelte",
 		"Terminus",
 	],
 	"in_process_packages":
