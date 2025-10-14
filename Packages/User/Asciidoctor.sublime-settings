@@ -1,4 +1,5 @@
 // These settings override both User and Default settings for the Asciidoctor syntax
 {
 	"wrap_width": 100,
+	"spell_check": true,
 }
