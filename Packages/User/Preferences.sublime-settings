@@ -41,4 +41,12 @@
 	// Plugins
 	"sesame.path": [ "~/Projects", "C:/Projects", "D:/Projects"],
 	"sesame.depth": 1,
+	"added_words":
+	[
+		"contactor",
+		"selectable",
+		"Delcos",
+		"airend",
+		"Modbus",
+	],
 }
